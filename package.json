@@ -20,8 +20,8 @@
     "test:watch": "npm run test -- --watch"
   },
   "bin": {
-    "intl-imports.js": "i18n/scripts/intl-imports.js",
-    "transifex-utils.js": "i18n/scripts/transifex-utils.js"
+    "intl-imports.js": "dist/i18n/scripts/intl-imports.js",
+    "transifex-utils.js": "dist/i18n/scripts/transifex-utils.js"
   },
   "repository": {
     "type": "git",
