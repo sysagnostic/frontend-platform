@@ -23,6 +23,7 @@ import '@formatjs/intl-pluralrules/locale-data/ru';
 import '@formatjs/intl-pluralrules/locale-data/th';
 import '@formatjs/intl-pluralrules/locale-data/uk';
 import '@formatjs/intl-pluralrules/locale-data/vi';
+import '@formatjs/intl-pluralrules/locale-data/hu';
 import '@formatjs/intl-relativetimeformat/polyfill';
 import '@formatjs/intl-relativetimeformat/locale-data/ar';
 import '@formatjs/intl-relativetimeformat/locale-data/en';
@@ -39,6 +40,7 @@ import '@formatjs/intl-relativetimeformat/locale-data/ru';
 import '@formatjs/intl-relativetimeformat/locale-data/th';
 import '@formatjs/intl-relativetimeformat/locale-data/uk';
 import '@formatjs/intl-relativetimeformat/locale-data/vi';
+import '@formatjs/intl-relativetimeformat/locale-data/hu';
 var cookies = new Cookies();
 var supportedLocales = ['ar',
 // Arabic
@@ -71,7 +73,9 @@ var supportedLocales = ['ar',
 // Thai
 'uk',
 // Ukrainian
-'vi' // Vietnamese
+'vi',
+// Vietnamese
+'hu' // Hungarian
 ];
 var rtlLocales = ['ar',
 // Arabic
@@ -254,7 +258,9 @@ var messagesShape = {
   // Thai
   uk: PropTypes.objectOf(PropTypes.string),
   // Ukrainian
-  vi: PropTypes.objectOf(PropTypes.string) // Vietnamese
+  vi: PropTypes.objectOf(PropTypes.string),
+  // Vietnamese
+  hu: PropTypes.objectOf(PropTypes.string) // Hungarian
 };
 var optionsShape = {
   config: PropTypes.object.isRequired,

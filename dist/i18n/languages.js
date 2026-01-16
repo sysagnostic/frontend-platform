@@ -21,7 +21,7 @@ import ptLocale from '@cospired/i18n-iso-languages/langs/pt.json';
 // import ruLocale from '@cospired/i18n-iso-languages/langs/ru.json';
 // import thLocale from '@cospired/i18n-iso-languages/langs/th.json';
 // import ukLocale from '@cospired/i18n-iso-languages/langs/uk.json';
-
+import huLocale from '@cospired/i18n-iso-languages/langs/hu.json';
 import { getPrimaryLanguageSubtag } from './lib';
 
 /*
@@ -49,6 +49,7 @@ LANGUAGES.registerLocale(ptLocale);
 // LANGUAGES.registerLocale(ruLocale);
 // LANGUAGES.registerLocale(thLocale);
 // LANGUAGES.registerLocale(ukLocale);
+LANGUAGES.registerLocale(huLocale);
 
 /**
  * Provides a lookup table of language IDs to language names for the current locale.
